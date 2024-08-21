@@ -23,12 +23,12 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: green;
+    color: rgb(192, 109, 109);
   }
   
   /* mouse over link */
   a:hover {
-    color: rgb(145, 105, 255);
+    color: rgb(134, 47, 255);
   }
   
   /* selected link */
@@ -44,11 +44,14 @@ a:link {
 
 }
 
-.links{
-    max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+.lnk{
 
+background:#9df9ef;
+padding:20px;
+position: down;
+bottom:10px;
+left:45%;
+border-radius:10px;
 }
 
   
